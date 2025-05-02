@@ -61,7 +61,7 @@ We performed data cleaning and preprocessing for three different datasets corres
 
     * As part of standard data cleaning process, we dropped attributes with a considerable amount of null values. We also removed location-based attributes which were not useful for current analysis objectives.
 
-    * Finally, we imputed missing values for key attributes such as 'FULL_BTH', 'HLF_BTH', 'KITCHENS', and 'FIREPLACES', which we considered potentially important for predicting violations. Any remaining rows with null values were then removed.
+    * Finally, we imputed missing values for key attributes such as 'FULL_BTH', 'HLF_BTH', 'KITCHENS', and 'FIREPLACES', uisng KNN imputer, which we considered potentially important for predicting violations. Any remaining rows with null values were then removed.
 
 4. Public Assessment Dataset (Independent Exploration)
 
