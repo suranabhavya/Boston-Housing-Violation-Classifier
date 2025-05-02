@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from numpy.linalg import norm
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("B:\BOSTON UNI\Acad\TDS\datasets\PWV_processed.csv")
+df = pd.read_csv("B:\BOSTON UNI\Acad\TDS\datasets\PWV_processed.csv") #FILE FROM pythonNBs/PWV_Cleaning.ipynb
 
 trash_keywords = [
     'improper storage trash',

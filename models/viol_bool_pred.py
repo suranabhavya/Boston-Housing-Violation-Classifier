@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 # from sklearn.ensemble import RandomForestClassifier
 # from imblearn.under_sampling import RandomUnderSampler
 
-pad_bool = pd.read_csv('B:\BOSTON UNI\Acad\TDS\datasets\PAD_cleaned_bool.csv')
+pad_bool = pd.read_csv('B:\BOSTON UNI\Acad\TDS\datasets\PAD_cleaned_bool.csv') #file from pythonNBs/PAD_data_AugNClean.ipynb
 
 Y = pad_bool['violation_bool']
 
