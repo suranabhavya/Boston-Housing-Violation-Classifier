@@ -1,7 +1,8 @@
 # Data-Science-Project
 
 ## Presentation
-<put link here>
+
+[Watch our presentation here :)](https://youtu.be/xksQRhYdIoo)
 
 ## Boston Housing Violations Analysis
 ### Description
@@ -59,9 +60,13 @@ We performed data cleaning and preprocessing for three different datasets corres
     
     * The attribute 'sam_id' from the Public Works dataset corresponds to 'SAM_ADDRESS_ID' in the Street Address Management dataset. The attribute 'PARCEL' from the Street Address Management dataset corresponds to 'PID' in the Property Assessment dataset. Based on this connection we added new attribute to Property Assessment Dataset, 'violation_bool' has value 1 if the corresponding 'PID' has a violation recorded, else 0.
 
-    * As part of standard data cleaning process, we dropped attributes with a considerable amount of null values. We also removed location-based attributes which were not useful for current analysis objectives.
+    * As part of standard data cleaning process, we dropped attributes with a considerable amount of null values.
 
-    * Finally, we imputed missing values for key attributes such as 'FULL_BTH', 'HLF_BTH', 'KITCHENS', and 'FIREPLACES', uisng KNN imputer, which we considered potentially important for predicting violations. Any remaining rows with null values were then removed.
+    * We addressed zero or placeholder values (e.g., 0, " ") in key columns such as FULL_BTH, HLF_BTH, KITCHENS, FIREPLACES, and NUM_PARKING.
+
+    * For remaining missing values in important continuous fields (e.g., GROSS_AREA, LIVING_AREA, RES_FLOOR), we applied a KNN imputer, which better captures data relationships than mean/median.
+
+    * Remaining nulls in low-impact fields (e.g., mailing address fields, remodel year) were either dropped or imputed with reasonable defaults.
 
 4. Public Assessment Dataset (Independent Exploration)
 
