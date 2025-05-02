@@ -63,7 +63,7 @@ We performed data cleaning and preprocessing for three different datasets corres
 
     * Finally, we imputed missing values for key attributes such as 'FULL_BTH', 'HLF_BTH', 'KITCHENS', and 'FIREPLACES', which we considered potentially important for predicting violations. Any remaining rows with null values were then removed.
 
-4. Part2 - Public Assessment Dataset (Independent Exploration)
+4. Public Assessment Dataset (Independent Exploration)
 
     In this phase, we analyzed the Property Assessment dataset independently (i.e., not in relation to violations) to explore its internal structure, completeness, and categorical distributions for modeling and insight generation.
 
