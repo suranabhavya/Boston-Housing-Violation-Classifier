@@ -174,7 +174,7 @@ We performed data cleaning and preprocessing for three different datasets corres
 
     The spatial distribution appeared uniform as violations of all types seemed to occur across all regions. When all violation types were plotted together, trash-related violations overwhelmingly dominated the map due to their high frequency. When plotted separately by category, the violations either appeared too sparse to identify patterns or too dense to differentiate meaningfully.
 
-### Preliminary results
+### Final Results
 #### 1. Binary Violation Prediction
 
 We used features from the Boston Public Assessment Dataset to predict whether a property is likely to incur a public works violation.
