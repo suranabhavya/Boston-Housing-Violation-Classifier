@@ -425,18 +425,3 @@ The logarithmic transformation of the target variable proved essential for achie
     ```
     bash initialize.sh
     ```
-
-
-### Next Steps
-
-1. We have tried to answer most of the base questions from the original project's document. But our insights feel a little incohesive at the moment. We need to try to get solid trends from the data.
-
-2. Using the 'status_dttm', we should be able to get time data for the violations, using which we could get better insights like recurrence of violation, a specific rise in violations etc.
-
-3. See if we can find any other target variables that we can predict from the data available.
-
-4. We are currently hindered by our lack of domain knowledge to impute a lot a null values. We need to find better ways.
-
-5. We need to do a better clean up of data's location attributes using Street Address Management dataset.
-
-6. A better organization of code.
