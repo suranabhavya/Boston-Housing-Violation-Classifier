@@ -1,7 +1,7 @@
 # Data-Science-Project
 
-## Mid-Term Presentation
-https://youtu.be/n2QhbOy2V7o 
+## Presentation
+<put link here>
 
 ## Boston Housing Violations Analysis
 ### Description
