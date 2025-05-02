@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the cleaned dataset
-data_path = 'data/cleaned_property_Asses_data.csv'
+data_path = 'data/cleaned_property_Asses_data.csv' # file from pythonNBs/PAD_clean_EDA.ipynb
+
 df = pd.read_csv(data_path, low_memory=False)
 
 # Display basic information about the dataset

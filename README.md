@@ -410,6 +410,23 @@ The high predictive accuracy of the model suggests that property taxes in Boston
 
 The logarithmic transformation of the target variable proved essential for achieving high model performance, indicating that tax values follow a multiplicative rather than additive relationship with underlying property features.
 
+
+### Getting it working
+
+* All of our models are in the 'models' directory. These can be run by installing our the required python libraries from the requirements.txt file.
+
+* The jupyter notebooks can also be run by selecting the same kernel.
+
+* The cleaning files, PWV_cleaning.ipynb, PAD_clean_EDA.ipynb, and pad_Data_AugNClean.ipynb are required to be run before training and testing the models. The base csv files can be downloaded from the link in our datatsets section above.
+
+* The creation, and setting up of the virtual enviornment and python kernels can be done by running intialize.sh bash script.
+
+
+    ```
+    bash initialize.sh
+    ```
+
+
 ### Next Steps
 
 1. We have tried to answer most of the base questions from the original project's document. But our insights feel a little incohesive at the moment. We need to try to get solid trends from the data.
