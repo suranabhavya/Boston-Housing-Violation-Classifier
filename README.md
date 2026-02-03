@@ -1,4 +1,4 @@
-# Data-Science-Project
+# Boston Housing Violation Classifier
 
 ## Presentation
 
